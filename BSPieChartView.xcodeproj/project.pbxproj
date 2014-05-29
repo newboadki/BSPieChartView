@@ -1,0 +1,420 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0017DACF1937D8070052DCF4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0017DACE1937D8070052DCF4 /* Foundation.framework */; };
+		0017DAD41937D8070052DCF4 /* BSPieChartView.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 0017DAD31937D8070052DCF4 /* BSPieChartView.h */; };
+		0017DAD61937D8070052DCF4 /* BSPieChartView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0017DAD51937D8070052DCF4 /* BSPieChartView.m */; };
+		0017DADD1937D8070052DCF4 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0017DADC1937D8070052DCF4 /* XCTest.framework */; };
+		0017DADE1937D8070052DCF4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0017DACE1937D8070052DCF4 /* Foundation.framework */; };
+		0017DAE01937D8070052DCF4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0017DADF1937D8070052DCF4 /* UIKit.framework */; };
+		0017DAE31937D8070052DCF4 /* libBSPieChartView.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0017DACB1937D8070052DCF4 /* libBSPieChartView.a */; };
+		0017DAE91937D8070052DCF4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0017DAE71937D8070052DCF4 /* InfoPlist.strings */; };
+		0017DAEB1937D8070052DCF4 /* BSPieChartViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0017DAEA1937D8070052DCF4 /* BSPieChartViewTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0017DAE11937D8070052DCF4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0017DAC31937D8070052DCF4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0017DACA1937D8070052DCF4;
+			remoteInfo = BSPieChartView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		0017DAC91937D8070052DCF4 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				0017DAD41937D8070052DCF4 /* BSPieChartView.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0017DACB1937D8070052DCF4 /* libBSPieChartView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libBSPieChartView.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		0017DACE1937D8070052DCF4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		0017DAD21937D8070052DCF4 /* BSPieChartView-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BSPieChartView-Prefix.pch"; sourceTree = "<group>"; };
+		0017DAD31937D8070052DCF4 /* BSPieChartView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BSPieChartView.h; sourceTree = "<group>"; };
+		0017DAD51937D8070052DCF4 /* BSPieChartView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BSPieChartView.m; sourceTree = "<group>"; };
+		0017DADB1937D8070052DCF4 /* BSPieChartViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BSPieChartViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0017DADC1937D8070052DCF4 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		0017DADF1937D8070052DCF4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		0017DAE61937D8070052DCF4 /* BSPieChartViewTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BSPieChartViewTests-Info.plist"; sourceTree = "<group>"; };
+		0017DAE81937D8070052DCF4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0017DAEA1937D8070052DCF4 /* BSPieChartViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BSPieChartViewTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0017DAC81937D8070052DCF4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0017DACF1937D8070052DCF4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0017DAD81937D8070052DCF4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0017DADD1937D8070052DCF4 /* XCTest.framework in Frameworks */,
+				0017DAE31937D8070052DCF4 /* libBSPieChartView.a in Frameworks */,
+				0017DAE01937D8070052DCF4 /* UIKit.framework in Frameworks */,
+				0017DADE1937D8070052DCF4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0017DAC21937D8070052DCF4 = {
+			isa = PBXGroup;
+			children = (
+				0017DAD01937D8070052DCF4 /* BSPieChartView */,
+				0017DAE41937D8070052DCF4 /* BSPieChartViewTests */,
+				0017DACD1937D8070052DCF4 /* Frameworks */,
+				0017DACC1937D8070052DCF4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0017DACC1937D8070052DCF4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0017DACB1937D8070052DCF4 /* libBSPieChartView.a */,
+				0017DADB1937D8070052DCF4 /* BSPieChartViewTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0017DACD1937D8070052DCF4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0017DACE1937D8070052DCF4 /* Foundation.framework */,
+				0017DADC1937D8070052DCF4 /* XCTest.framework */,
+				0017DADF1937D8070052DCF4 /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0017DAD01937D8070052DCF4 /* BSPieChartView */ = {
+			isa = PBXGroup;
+			children = (
+				0017DAD31937D8070052DCF4 /* BSPieChartView.h */,
+				0017DAD51937D8070052DCF4 /* BSPieChartView.m */,
+				0017DAD11937D8070052DCF4 /* Supporting Files */,
+			);
+			path = BSPieChartView;
+			sourceTree = "<group>";
+		};
+		0017DAD11937D8070052DCF4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0017DAD21937D8070052DCF4 /* BSPieChartView-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0017DAE41937D8070052DCF4 /* BSPieChartViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				0017DAEA1937D8070052DCF4 /* BSPieChartViewTests.m */,
+				0017DAE51937D8070052DCF4 /* Supporting Files */,
+			);
+			path = BSPieChartViewTests;
+			sourceTree = "<group>";
+		};
+		0017DAE51937D8070052DCF4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0017DAE61937D8070052DCF4 /* BSPieChartViewTests-Info.plist */,
+				0017DAE71937D8070052DCF4 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0017DACA1937D8070052DCF4 /* BSPieChartView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0017DAEE1937D8070052DCF4 /* Build configuration list for PBXNativeTarget "BSPieChartView" */;
+			buildPhases = (
+				0017DAC71937D8070052DCF4 /* Sources */,
+				0017DAC81937D8070052DCF4 /* Frameworks */,
+				0017DAC91937D8070052DCF4 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BSPieChartView;
+			productName = BSPieChartView;
+			productReference = 0017DACB1937D8070052DCF4 /* libBSPieChartView.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		0017DADA1937D8070052DCF4 /* BSPieChartViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0017DAF11937D8070052DCF4 /* Build configuration list for PBXNativeTarget "BSPieChartViewTests" */;
+			buildPhases = (
+				0017DAD71937D8070052DCF4 /* Sources */,
+				0017DAD81937D8070052DCF4 /* Frameworks */,
+				0017DAD91937D8070052DCF4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0017DAE21937D8070052DCF4 /* PBXTargetDependency */,
+			);
+			name = BSPieChartViewTests;
+			productName = BSPieChartViewTests;
+			productReference = 0017DADB1937D8070052DCF4 /* BSPieChartViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0017DAC31937D8070052DCF4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Borja Arias Drake";
+			};
+			buildConfigurationList = 0017DAC61937D8070052DCF4 /* Build configuration list for PBXProject "BSPieChartView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0017DAC21937D8070052DCF4;
+			productRefGroup = 0017DACC1937D8070052DCF4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0017DACA1937D8070052DCF4 /* BSPieChartView */,
+				0017DADA1937D8070052DCF4 /* BSPieChartViewTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0017DAD91937D8070052DCF4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0017DAE91937D8070052DCF4 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0017DAC71937D8070052DCF4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0017DAD61937D8070052DCF4 /* BSPieChartView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0017DAD71937D8070052DCF4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0017DAEB1937D8070052DCF4 /* BSPieChartViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0017DAE21937D8070052DCF4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0017DACA1937D8070052DCF4 /* BSPieChartView */;
+			targetProxy = 0017DAE11937D8070052DCF4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0017DAE71937D8070052DCF4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0017DAE81937D8070052DCF4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0017DAEC1937D8070052DCF4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0017DAED1937D8070052DCF4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0017DAEF1937D8070052DCF4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/BSPieChartView.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BSPieChartView/BSPieChartView-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		0017DAF01937D8070052DCF4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/BSPieChartView.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BSPieChartView/BSPieChartView-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		0017DAF21937D8070052DCF4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BSPieChartView/BSPieChartView-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "BSPieChartViewTests/BSPieChartViewTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		0017DAF31937D8070052DCF4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BSPieChartView/BSPieChartView-Prefix.pch";
+				INFOPLIST_FILE = "BSPieChartViewTests/BSPieChartViewTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0017DAC61937D8070052DCF4 /* Build configuration list for PBXProject "BSPieChartView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0017DAEC1937D8070052DCF4 /* Debug */,
+				0017DAED1937D8070052DCF4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0017DAEE1937D8070052DCF4 /* Build configuration list for PBXNativeTarget "BSPieChartView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0017DAEF1937D8070052DCF4 /* Debug */,
+				0017DAF01937D8070052DCF4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0017DAF11937D8070052DCF4 /* Build configuration list for PBXNativeTarget "BSPieChartViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0017DAF21937D8070052DCF4 /* Debug */,
+				0017DAF31937D8070052DCF4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0017DAC31937D8070052DCF4 /* Project object */;
+}
