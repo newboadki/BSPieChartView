@@ -159,7 +159,7 @@
     CAKeyframeAnimation *animation = [CAKeyframeAnimation animationWithKeyPath:@"path"];
     animation.values = values;
     animation.duration = duration;
-    [layer.modelLayer setPath:(CGPathRef)[values lastObject]];
+    //[layer.modelLayer setPath:(CGPathRef)[values lastObject]];
     
     return animation;
 }
