@@ -145,7 +145,7 @@
     }
     
     BSPieChartSectionInfoInternal *sectionInfo = self.cachedSections[initialIndex];
-    CAAnimation *animation = [self animationForLayer:sectionInfo.layer values:sectionInfo.animationFrames duration:0.2];
+    CAAnimation *animation = [self animationForLayer:sectionInfo.layer values:sectionInfo.animationFrames duration:0.2]; 
     [CATransaction setCompletionBlock:^{
         [self animateLayerAtIndex:(initialIndex + 1)];
     }];
@@ -154,12 +154,13 @@
 }
 
 
-- (CAAnimation *)animationForLayer:(CALayer *)layer values:(NSArray*)values duration:(CGFloat)duration
+- (CAAnimation *)animationForLayer:(CAShapeLayer *)layer values:(NSArray*)values duration:(CGFloat)duration
 {
     CAKeyframeAnimation *animation = [CAKeyframeAnimation animationWithKeyPath:@"path"];
     animation.values = values;
     animation.duration = duration;
-    //[layer.modelLayer setPath:(CGPathRef)[values lastObject]];
+    [layer.modelLayer setPath:(CGPathRef)[values lastObject]];
+    
     
     return animation;
 }
